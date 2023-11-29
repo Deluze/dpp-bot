@@ -10,5 +10,5 @@ The Docker image can be used as a Docker Toolchain in CLion.
 docker build .
 ```
 
-Add `"-DCMAKE_TOOLCHAIN_FILE=/vcpkg/scripts/buildsystems/vcpkg.cmake"` to the CMake Options in CLion to automatically regenerate the CMake project.
+Add `"-DCMAKE_TOOLCHAIN_FILE=/vcpkg/scripts/buildsystems/vcpkg.cmake"` to the CMake Options in CLion so that CLion automatically adds this flag while building the project.
 
